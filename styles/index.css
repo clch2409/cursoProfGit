@@ -36,9 +36,7 @@ div h1, div p{
 
 .cabecera{
     background-color: crimson;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
     color: white;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
@@ -50,10 +48,11 @@ div h1, div p{
 
 footer{
     width: 100%;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     margin-top: 20px;
-    background-color: turquoise;
+    background-color: rgb(76, 76, 180);
     font-weight: bold;
     color:white;   
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
