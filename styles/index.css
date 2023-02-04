@@ -36,14 +36,34 @@ div h1, div p{
 
 .cabecera{
     background-color: crimson;
+    display: flex;
+    /* flex-direction: row;
     text-align: center;
+    align-items: center; */
+    justify-content: space-evenly;
     color: white;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 20px;
     font-weight: bold;
-    font-size: 4.0rem;
+    font-size: 2.5rem;
     box-shadow: 6px 4px 16px 3px rgba(0,0,0,0.75);
+}
+
+.cabecera span {
+    font-size: 1.2rem;
+    padding-left: 5px;
+}
+
+.cabecera img {
+    width: 70px;
+    vertical-align: middle;
+}
+
+.cabecera p{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 footer{
